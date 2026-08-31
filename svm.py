@@ -8,8 +8,8 @@ import requests
 features, scaler, model, Y_pred, cr, cm = svm_cardio()
 
 st.header('Cardiovascular Disease Prediction')
-st.subheader('Using SVM alogrithms')
-API_URL =  'https://cardiovascular-predict-system.onrender.com'
+st.subheader('Using SVM algorithms')
+API_URL = 'https://cardiovascular-predict-system.onrender.com/request-svm-cardio'
 
 st.sidebar.header(
     'Cardio Features'
