@@ -1,0 +1,7 @@
+#backend requirements
+pandas 
+scikit-learn
+joblib
+uvicorn
+pydantic
+fastapi
