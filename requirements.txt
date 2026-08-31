@@ -1,7 +1,7 @@
-#backend requirements
-pandas 
+# frontend requirement
+pandas
+streamlit
 scikit-learn
-joblib
-uvicorn
-pydantic
-fastapi
+matplotlib
+seaborn
+requests
