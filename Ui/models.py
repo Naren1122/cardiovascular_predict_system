@@ -10,17 +10,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import classification_report, confusion_matrix
 
 
-import os
-
-# Dynamic path resolution to work both locally (cwd=Ui/) and on Streamlit Cloud (cwd=root)
-_CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
-_CSV_PATH = os.path.join(_CURRENT_DIR, 'Cardiovascular_Disease.csv')
-if not os.path.exists(_CSV_PATH):
-    _CSV_PATH = os.path.join('Ui', 'Cardiovascular_Disease.csv')
-if not os.path.exists(_CSV_PATH):
-    _CSV_PATH = 'Cardiovascular_Disease.csv'
-
-df = pd.read_csv(_CSV_PATH)
+df = pd.read_csv('Cardiovascular_Disease.csv')
 
 age_data = (df['age']/365).astype(int)
 df['age'] = age_data
