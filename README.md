@@ -12,9 +12,7 @@ An end-to-end Machine Learning web application designed to assess and predict pa
 
 ## 🔗 Live Deployments
 
-* 🌐 **Live Web Application (Frontend)**: [cardiovascularpredictsystem.streamlit.app](https://cardiovascularpredictsystem-bqbhivrzuapp9v99cfr3fso.streamlit.app/)
-* ⚡ **Live REST API (Swagger Docs)**: [cardiovascular-predict-system.onrender.com/docs](https://cardiovascular-predict-system.onrender.com/docs)
-* 🐙 **GitHub Repository**: [Naren1122/cardiovascular_predict_system](https://github.com/Naren1122/cardiovascular_predict_system)
+* 🌐 **Live Web Application (Frontend)**: [cardiovascularpredictsystem.streamlit.app](https://cardiovascularpredictsystem-77c4uc9b767rv7kxaxkinj.streamlit.app/)
 
 ---
 
