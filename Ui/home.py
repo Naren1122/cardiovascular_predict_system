@@ -1,4 +1,11 @@
+import os
+import sys
 import streamlit as st
+
+# Ensure UI directory is in sys.path for Streamlit Cloud
+_UI_DIR = os.path.dirname(os.path.abspath(__file__))
+if _UI_DIR not in sys.path:
+    sys.path.insert(0, _UI_DIR)
 
 def home():
     # Header Banner

@@ -10,7 +10,17 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import classification_report, confusion_matrix
 
 
-df = pd.read_csv('Cardiovascular_Disease.csv')
+import os
+
+# Dynamic path resolution: finds Cardiovascular_Disease.csv inside the same folder (Ui/)
+_DIR = os.path.dirname(os.path.abspath(__file__))
+_CSV = os.path.join(_DIR, 'Cardiovascular_Disease.csv')
+if not os.path.exists(_CSV):
+    _CSV = os.path.join('Ui', 'Cardiovascular_Disease.csv')
+if not os.path.exists(_CSV):
+    _CSV = 'Cardiovascular_Disease.csv'
+
+df = pd.read_csv(_CSV)
 
 age_data = (df['age']/365).astype(int)
 df['age'] = age_data
