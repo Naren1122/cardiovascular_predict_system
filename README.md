@@ -12,7 +12,7 @@ An end-to-end Machine Learning web application designed to assess and predict pa
 
 ## 🔗 Live Deployments
 
-* 🌐 **Live Web Application (Frontend)**: [cardiovascularpredictsystem.streamlit.app](https://cardiovascularpredictsystem-77c4uc9b767rv7kxaxkinj.streamlit.app/)
+* 🌐 **Live Web Application (Frontend)**: [https://cardiovascularpredictsystem-kkzt3cfuizuhiwmxd5nyy6.streamlit.app/](https://cardiovascularpredictsystem-kkzt3cfuizuhiwmxd5nyy6.streamlit.app/)
 
 ---
 
